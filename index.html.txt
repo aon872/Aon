@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Our School - Donation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1>Support Our School</h1>
+            <p>We work together to build a better future for our children</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>Why Do We Need Your Support?</h2>
+            <p>We aim to provide an advanced and integrated educational environment for our students. Every donation helps improve educational facilities, provide necessary tools, and support educational programs.</p>
+        </div>
+    </section>
+
+    <!-- Donation Section -->
+    <section class="donation">
+        <div class="container">
+            <h2>Contribute Now to Build the Future</h2>
+            <form id="donationForm">
+                <label for="amount">Amount (in USD):</label>
+                <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+                
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <button type="submit" class="btn">Donate Now</button>
+            </form>
+            <p id="thankYouMessage" class="hidden">Thank you for your generous support!</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or want more information, you can contact us via email or phone.</p>
+            <ul>
+                <li><strong>Email:</strong> info@school.com</li>
+                <li><strong>Phone:</strong> 123-456-7890</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Our School. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

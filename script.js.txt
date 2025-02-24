@@ -1,0 +1,9 @@
+document.getElementById('donationForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent page reload
+
+    // Show thank you message
+    document.getElementById('thankYouMessage').classList.remove('hidden');
+
+    // Clear the form fields after submission
+    this.reset();
+});
